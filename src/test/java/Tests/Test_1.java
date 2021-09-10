@@ -25,7 +25,7 @@ public class Test_1 extends Base_Test{
         //logger.info("Navigated to computer database");
 
         //this line tells the driver to find an element with a specific (div) classname and then click on that element
-        driver.findElement(By.className("avatar")).click();
+        driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div[1]")).click();
 
         //the following is how we determine whether the test was successful, i.e. whether the website did what we
         //expected it should. Here we ask whether the URL of the current site is the URL for the "Add a computer" page

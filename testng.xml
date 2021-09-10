@@ -5,4 +5,9 @@
             <class name = "Tests.Test_1"/>
         </classes>
     </test>
+    <test thread-count="5" name = "Tests.Test_2">
+        <classes>
+            <class name = "Tests.Test_2"/>
+        </classes>
+    </test>
 </suite>
