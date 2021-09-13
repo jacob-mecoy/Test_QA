@@ -14,7 +14,9 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
-
+        <!--The below version of JUnit is an old one. JUnit 5 is available. JUnit 5 separates into
+        3 dependencies - JUnit Platform, JUnit Jupiter + JUnit Vintage. As we're new to JUnit we're
+        using an older version for simplicity.-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
